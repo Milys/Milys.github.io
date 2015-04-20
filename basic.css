@@ -11,6 +11,13 @@ h3{
   color: green;
 }
 
+p.header{
+  color.:blue;
+  text-align: center;
+  font-size: 50px;
+
+}
+
 p {
     font-family: "Times New Roman";
     font-size: 20px;
