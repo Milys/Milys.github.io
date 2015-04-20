@@ -8,38 +8,7 @@
         <title>My Web Page</title>
         <link rel="stylesheet" href="basic.css"/>
 
-        <style>
-    div {
-        width: 100px;
-        height: 100px;
-        background-color: red;
-        position: relative;
-        -webkit-animation-name: example; /* Chrome, Safari, Opera */
-        -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
-        -webkit-animation-iteration-count: 3; /* Chrome, Safari, Opera */
-        animation-name: example;
-        animation-duration: 4s;
-        animation-iteration-count: infinite;
-    }
 
-    /* Chrome, Safari, Opera */
-    @-webkit-keyframes example {
-        0%   {background-color:red; left:0px; top:0px;}
-        25%  {background-color:yellow; left:200px; top:0px;}
-        50%  {background-color:blue; left:200px; top:200px;}
-        75%  {background-color:green; left:0px; top:200px;}
-        100% {background-color:red; left:0px; top:0px;}
-    }
-
-    /* Standard syntax */
-    @keyframes example {
-        0%   {background-color:red; left:0px; top:0px;}
-        25%  {background-color:yellow; left:200px; top:0px;}
-        50%  {background-color:blue; left:200px; top:200px;}
-        75%  {background-color:green; left:0px; top:200px;}
-        100% {background-color:red; left:0px; top:0px;}
-    }
-    </style>
 
 
 
@@ -52,8 +21,15 @@
 
       <h1>My First Web Page</h1>
 
-      <p><b>Note:</b> This example does not work in Internet Explorer 9 and earlier versions.</p>
+      <hr>
 
+        <!-- Link picture to html use src atribute-->
+        <!-- put also alt atribute if web side will not find image or  images are turn off in someone computer will say what it is-->
+        <!-- to go back with image in diffrent holder add ../ to go back one folder-->
+
+       <img src="/Images/IMAGE_1.png" alt="My Mom image" width="250" height="380"/>
+       <img src="Images/IMAGE_2" alt="My Wife image" width="250" height="380"/>
+       
     </body>
 
 </html>
