@@ -7,8 +7,10 @@ h2{
   color: red;
 }
 
-h3{
+.search{
   color: green;
+  font-size: 30px;
+  text-decoration: underline;
 }
 
 .blue{
