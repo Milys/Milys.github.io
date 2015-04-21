@@ -18,23 +18,7 @@
             return false;
              }
             }
-         function clickns(e) {
-            if (document.layers||(document.getElementById&&!document.all)) {
-            if (e.which==2 || e.which==3)
-            {
-             alert(message);
-             return false;
-                }
-               }
-              }
-           if (document.layers) {
-           document.captureEvents(Event.MOUSEDOWN);
-           document.onmousedown=clickns;
-           }
-           else {
-          document.onmouseup=clickns;
-          document.oncontextmenu=clickie;
-          }
+
            </SCRIPT>
 
     </head>
