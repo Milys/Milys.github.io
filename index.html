@@ -10,14 +10,29 @@
         <link rel="stylesheet" href="basic.css"/>
 
         <SCRIPT LANGUAGE="JavaScript">
-         var message = 'Please respect our Copyright.' ;
-         function clickie() {
+            var message = 'Please Respect My Copyright.' ;
+            
+            function clickie() {
             if (document.all)
             {
             alert(message);
             return false;
              }
             }
+
+            function disableselect(e){
+            return false
+            }
+
+             function reEnable(){
+             return true
+             }
+
+            document.onselectstart=new Function (“return false”)
+            if (window.sidebar){
+            document.onmousedown=disableselect
+            document.onclick=reEnable
+             }
 
            </SCRIPT>
 
