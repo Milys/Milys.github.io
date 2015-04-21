@@ -3,7 +3,7 @@
 var message = 'Please Respect My Copyright.' ;
 
     function clickie() {
-    if (document.all)
+    if (onclick)
     {
     alert(message);
     return false;
