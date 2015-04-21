@@ -9,11 +9,33 @@
         <title>Mitch's First Web Page</title>
         <link rel="stylesheet" href="basic.css"/>
 
-        <script type="image/JavaScript">
-        function killCopy(e){
-          return false
-        }
-        </script>
+        <SCRIPT LANGUAGE="JavaScript">
+         var message = 'Please respect our Copyright.' ;
+         function clickie() {
+            if (document.all)
+            {
+            alert(message);
+            return false;
+             }
+            }
+         function clickns(e) {
+            if (document.layers||(document.getElementById&&!document.all)) {
+            if (e.which==2 || e.which==3)
+            {
+             alert(message);
+             return false;
+                }
+               }
+              }
+           if (document.layers) {
+           document.captureEvents(Event.MOUSEDOWN);
+           document.onmousedown=clickns;
+           }
+           else {
+          document.onmouseup=clickns;
+          document.oncontextmenu=clickie;
+          }
+           </SCRIPT>
 
     </head>
 
