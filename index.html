@@ -5,10 +5,12 @@
 
     <head>
 
-  
 
         <title>Mitch's First Web Page </title>
         <link rel="stylesheet" href="basic.css"/>
+
+        <input ng-cut="$event.preventDefault()" ng-copy="$event.preventDefault()"
+        ng-paste="$event.preventDefault()" ng-model="val" />
 
     </head>
 
