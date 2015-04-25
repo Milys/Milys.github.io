@@ -10,4 +10,4 @@ var message = 'Please Respect My Copyright.' ;
      }
     }
 
-   </SCRIPT>
+   </script>
