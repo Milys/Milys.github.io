@@ -1,13 +1,13 @@
-<script type="text/javascript">
+<!DOCTYPE html>
+<html>
 
-var message = 'Please Respect My Copyright.' ;
 
-    function clickie() {
-    if (button)
-    {
-    alert(message);
-    return false;
-     }
-    }
 
-   </script>
+<body>
+
+
+
+
+
+ </body>
+</html>
