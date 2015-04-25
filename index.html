@@ -12,7 +12,15 @@
 
         <script src="myScript.js"></script>
 
+        SCRIPT language="JavaScript">
+        <!-- hide from old browsers
 
+        alert('Welcome to my Web Site!');
+
+        //-->
+        </SCRIPT>
+
+        </HEAD>
 
     </head>
 
@@ -23,11 +31,24 @@
       <p class="blue">Using HTML, JavaScript and CSS Languages</p>
 
 
-<button type="button" onclick=alert("Two words\nAnother sentence.\n\nIf you need to use quotes in the string, you have to use escape characters like this: \' \" ,\nor an error will occur."); >Click On This Button to find out about Code</button>
+      <p>Click the button to get information about my code</p>
 
-<script type="text/javascript"><!--
-alert("Two words\nAnother sentence.\n\nIf you need to use quotes in the string, you have to use escape characters like this: \' \" ,\nor an error will occur.");
-//--></script>
+      <button onclick="myFunction()">Try it</button>
+
+      <p id="demo"></p>
+
+      <script>
+      function myFunction() {
+          var x;
+          if (confirm("Press a button!") == true) {
+              x = "You pressed OK!";
+          } else {
+              x = "You pressed Cancel!";
+          }
+          document.getElementById("demo").innerHTML = x;
+      }
+      </script>
+
 
 
 
